@@ -1,0 +1,29 @@
+/* Este código especial só aplica os estilos quando a página está sendo impressa */
+@media print {
+    
+    /* Esconde a barra de navegação */
+    .navbar {
+        display: none;
+    }
+
+    /* Esconde o botão "Gerar Currículo" do formulário */
+    .btn-primary {
+        display: none;
+    }
+
+    /* Esconde o botão "+" de adicionar experiência */
+    .btn-success {
+        display: none;
+    }
+
+    /* Esconde os botões "Remover" de experiência */
+    .btn-remover-exp {
+        display: none;
+    }
+
+    /* Faz os 'cards' perderem a borda e sombra, para parecer um documento limpo */
+    .card {
+        border: none;
+        box-shadow: none;
+    }
+}
